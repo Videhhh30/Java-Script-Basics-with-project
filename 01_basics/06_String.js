@@ -33,3 +33,24 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+
+/* [ Strings in JS ]
+- strings can be donated by ' or "
+- to concatenate we can use 
+- back tick (sting interpolations)
+e.g `hello ${name}`
+- sting is object but it has length property
+- it can be access as
+e.g stringName[0]
+- stringName._proto_
+- stringName.toUpperCase()
+- stringName.charAt()
+- stringName.indexAt()
+- stringName.substing(0,4) can have -ve value
+- stringName.slice(-7,4) can have -ve value
+- stringName.trim() , .trimStart(), .trimEnd()
+- stringName.replace('what to search', 'what to replace with')
+- stringName.includes('name')
+- stringName.split('sepater','limit')
+- search for small() yourself 
+*/
