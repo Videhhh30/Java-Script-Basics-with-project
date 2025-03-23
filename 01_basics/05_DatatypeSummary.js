@@ -14,9 +14,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n
-
-
+// const bigNumber = 3456543576654356754
 
 // Reference (Non primitive) (call by reference)
 
@@ -44,4 +42,7 @@ String	"string"
 Object (native and does not implement [[Call]])	"object"
 Object (native or host and does implement [[Call]])	"function"
 Object (host and does not implement [[Call]])	Implementation-defined (but not "undefined", "boolean", "number", or "string")
-/*
+
+- Primitive data type goes to Stack we get a copy of that value.
+- Non-Primitive data type goes to Heap we get refrence of that value.  
+*/
