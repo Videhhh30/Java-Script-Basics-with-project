@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive (call by value)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) (call by reference)
 
 // Array, Objects, Functions
 
@@ -33,3 +33,15 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+/* 
+Type of Value	Result of typeof
+Undefined	"undefined"
+Null	"object"
+Boolean	"boolean"
+Number	"number"
+String	"string"
+Object (native and does not implement [[Call]])	"object"
+Object (native or host and does implement [[Call]])	"function"
+Object (host and does not implement [[Call]])	Implementation-defined (but not "undefined", "boolean", "number", or "string")
+/*
