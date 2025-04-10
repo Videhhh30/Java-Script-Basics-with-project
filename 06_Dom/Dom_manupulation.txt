@@ -1,0 +1,37 @@
+1. document.getElementById('firstHeading')
+This line selects the HTML element with the ID firstHeading.
+
+In this case, it's:
+
+html
+Copy
+Edit
+<h1 id="firstHeading" class="firstHeading mw-first-heading"></h1>
+2. document.getElementById('firstHeading').innerHTML = "<h1>Chai aur code</h1>"
+This line changes the content inside the h1 tag.
+
+It sets the inner HTML (i.e., what’s displayed) to:
+
+html
+Copy
+Edit
+<h1>Chai aur code</h1>
+So the heading text on the page will now display:
+“Chai aur code”
+
+3. Output:
+It shows:
+
+html
+Copy
+Edit
+<h1>Chai aur code</h1>
+Which confirms that the change was successful.
+
+
+
+In the given screenshot, JavaScript is used within the browser's console to manipulate the content of an HTML element. 
+The `document.getElementById('firstHeading')` command selects the `<h1>` element with the ID `firstHeading`. 
+Using the `.innerHTML` property, the content of that element is updated to display a new heading, "Chai aur code". 
+This demonstrates how JavaScript can dynamically change the structure and content of a webpage in real time by accessing and 
+modifying the DOM (Document Object Model). Such manipulation is useful for creating interactive and responsive web pages.
