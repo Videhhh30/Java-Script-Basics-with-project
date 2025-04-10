@@ -1,0 +1,5 @@
+In JavaScript, `querySelector()` selects the first element matching a CSS selector, 
+while `querySelectorAll()` selects all matching elements and returns a NodeList, which supports `forEach()` directly.
+ On the other hand, `getElementsByClassName()` returns an HTMLCollection, which doesn’t support `forEach()` natively. 
+ To loop through it, you can convert it to an array using `Array.from()` or the spread operator (`[...]`). 
+ This allows you to apply actions like styling or event listeners to multiple elements efficiently.
